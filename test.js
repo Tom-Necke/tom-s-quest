@@ -1,12 +1,14 @@
 class Game {
     constructor(name, level) {
-        this.name = "Tom"
-        this.level = 100
+        this.name = name
+        this.level = level
     }
 }
 
-let character1 = new Game("Koji", 50);
+var character1 = new Game("Koji", 11);
+let character2 = new Game("Riki", 23);
 
 
 
 console.log(character1);
+console.log(character2);
