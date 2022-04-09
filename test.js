@@ -9,3 +9,5 @@ class VirtualPet {
 }
 let pet = new VirtualPet("Koji", "all");
 console.log(pet);
+
+eat();
